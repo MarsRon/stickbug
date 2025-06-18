@@ -1,0 +1,158 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "builtin",
+        "height": 15,
+        "width": 30,
+        "padding": {
+            "top": 5,
+            "left": 3
+        }
+    },
+    "display": {
+        "separator": "  ",
+        "constants": [
+            "───────────────────────" // {$1}, used in Custom module
+        ]
+    },
+    "modules": [
+        // "break",
+        "title",
+        "break",
+        {
+            "type": "custom",
+            "format": "{#90}┌{$1}──── Software ─────{$1}┐"
+        },
+        {
+            "type": "os",
+            "key": " OS",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "kernel",
+            "key": "│ ├",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "packages",
+            "key": "│ ├󰏖",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "shell",
+            "key": "└ └",
+            "keyColor": "yellow"
+        },
+        "break",
+        {
+            "type": "de",
+            "key": " DE",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wm",
+            "key": "│ ├",
+            "keyColor": "blue"
+        },
+        {
+            "type": "lm",
+            "key": "│ ├",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wmtheme",
+            "key": "│ ├󰉼",
+            "keyColor": "blue"
+        },
+        {
+            "type": "terminal",
+            "key": "│ ├",
+            "keyColor": "blue"
+        },
+        {
+            "type": "terminalfont",
+            "key": "└ └",
+            "keyColor": "blue"
+        },
+        {
+            "type": "custom",
+            "format": "{#90}└{$1}───────────────────{$1}┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "{#90}┌{$1}──── Hardware ─────{$1}┐"
+        },
+        {
+            "type": "host",
+            "key": " PC",
+            "keyColor": "green"
+        },
+        {
+            "type": "display",
+            "key": "│ ├󰍹",
+            "keyColor": "green"
+        },
+        {
+            "type": "cpu",
+            "key": "│ ├",
+            "keyColor": "green",
+            "temp": true
+        },
+        {
+            "type": "gpu",
+            "key": "│ ├󰍛",
+            "keyColor": "green",
+            "temp": true
+        },
+        {
+            "type": "memory",
+            "key": "│ ├",
+            "keyColor": "green"
+        },
+        {
+            "type": "swap",
+            "key": "│ ├",
+            "keyColor": "green"
+        },
+        {
+            "type": "disk",
+            "key": "│ ├󰋊",
+            "keyColor": "green"
+        },
+        {
+            "type": "battery",
+            "key": "└ └󱊣",
+            "keyColor": "green"
+        },
+        {
+            "type": "custom",
+            "format": "{#90}└{$1}───────────────────{$1}┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "{#90}┌{$1} Uptime / Age / DT {$1}┐"
+        },
+        {
+            "type": "uptime",
+            "key": "  Uptime ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "datetime",
+            "key": "  DateTime ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "custom",
+            "format": "{#90}└{$1}───────────────────{$1}┘"
+        },
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+        }
+ 
+    ]
+}
