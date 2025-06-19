@@ -1,6 +1,6 @@
 # Stickbug
 
-A custom [Arch Linux](https://archlinux.org/) ISO with [KDE/Plasma](https://kde.org/plasma-desktop/) for personal use.
+A custom [Arch Linux](https://archlinux.org/) ISO with [KDE Plasma](https://kde.org/plasma-desktop/) for personal use.
 
 ![Screenshot of the system](images/preview.png)
 
@@ -12,7 +12,7 @@ A custom [Arch Linux](https://archlinux.org/) ISO with [KDE/Plasma](https://kde.
 
 Extra packages included:
 
-- Minimal [KDE/Plasma 6](https://kde.org/plasma-desktop/) + [SDDM](https://github.com/sddm/sddm)
+- Minimal [KDE Plasma 6](https://kde.org/plasma-desktop/) + [SDDM](https://github.com/sddm/sddm)
 - [Breeze Dark theme](https://archlinux.org/packages/extra/x86_64/breeze/)
 - [Kitty terminal](https://github.com/kovidgoyal/kitty)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
