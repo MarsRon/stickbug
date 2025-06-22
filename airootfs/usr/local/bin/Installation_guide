@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Modified by MarsRon (marsron204@gmail.com)
 
-if [ -n $DISPLAY ]; then
+if [ -n "$DISPLAY" ]; then
     exec firefox '/usr/share/doc/arch-wiki/html/en/Installation_guide.html'
 else
     exec lynx '/usr/share/doc/arch-wiki/html/en/Installation_guide.html'
