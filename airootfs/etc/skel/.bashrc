@@ -48,3 +48,6 @@ fi
 
 # https://github.com/akinomyoga/ble.sh?tab=readme-ov-file#13-set-up-bashrc
 #[[ ! ${BLE_VERSION-} ]] || ble-attach
+
+# https://superuser.com/questions/789448/#comment1029143_789465
+[[ $- == *i* ]] && cat /etc/motd
