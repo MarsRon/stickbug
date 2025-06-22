@@ -4,7 +4,8 @@
 # Modified by MarsRon (marsron204@gmail.com)
 
 if [ -n "$DISPLAY" ]; then
-    exec firefox '/usr/share/doc/arch-wiki/html/en/Installation_guide.html'
+    # https://askubuntu.com/questions/802428
+    exec firefox '/usr/share/doc/arch-wiki/html/en/Installation_guide.html' >/dev/null 2>&1 & disown
 else
     exec lynx '/usr/share/doc/arch-wiki/html/en/Installation_guide.html'
 fi

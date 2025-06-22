@@ -1,7 +1,8 @@
 #!/bin/sh
 
 if [ -n "$DISPLAY" ]; then
-    exec firefox '/usr/share/doc/arch-wiki/html/en/Main_page.html'
+    # https://askubuntu.com/questions/802428
+    exec firefox '/usr/share/doc/arch-wiki/html/en/Main_page.html' >/dev/null 2>&1 & disown
 else
     exec lynx '/usr/share/doc/arch-wiki/html/en/Main_page.html'
 fi
