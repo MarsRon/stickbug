@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ -n $DISPLAY ]; then
+    exec firefox '/usr/share/doc/arch-wiki/html/en/Main_page.html'
+else
+    exec lynx '/usr/share/doc/arch-wiki/html/en/Main_page.html'
+fi
